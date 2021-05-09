@@ -18,14 +18,17 @@
 # - Answering some questions about functions at the end of this problem
 # - Adding comments in your code and a docstring that explains how to use your `fahr_to_celsius` function (i.e., you should write the purpose of the function, parameters, and returned values)
 
-# YOUR CODE HERE
+def fahr_to_celsius(temp_fahrenheit):
+  converted_temp=(temp_fahrenheit-32)/1.8;
+  return converted_temp
 
 # ### Problem 1 tests
 # 
 # Check that the function produces correct answers for:
-# 1. What is 48° Fahrenheit in Celsius? 
+# 1. What is 48° Fahrenheit in Celsius?
+print(fahr_to_celsius(48))
 # 2. What about 71° Fahrenheit in Celsius?
-
+print(fahr_to_celsius(71))
 # ### Check your code
 # 
 # - Make sure you used the given variable names
@@ -37,8 +40,9 @@
 # We would like you to think about and answer the following questions based on the materials and ideas that you learned during the lecture:
 # 
 #   1. Is the concept of function clear to you? If not, what do you not understand?
+#The concept of function is clear to me.
 #   2. What are some of the benefits of using functions?
-#   
+#By defining a function, it is possible to output for input of various values.
 # Write your answers below:
 
 # YOUR ANSWER HERE. Write your answers as comments
