@@ -26,9 +26,9 @@ def fahr_to_celsius(temp_fahrenheit):
 # 
 # Check that the function produces correct answers for:
 # 1. What is 48° Fahrenheit in Celsius?
-print(fahr_to_celsius(48))
+print("48 degrees Fahrenheit in Celsius is:",fahr_to_celsius(48))
 # 2. What about 71° Fahrenheit in Celsius?
-print(fahr_to_celsius(71))
+print("71 degrees Fahrenheit in Celsius is:",fahr_to_celsius(71))
 # ### Check your code
 # 
 # - Make sure you used the given variable names
@@ -42,12 +42,12 @@ print(fahr_to_celsius(71))
 #   1. Is the concept of function clear to you? If not, what do you not understand?
 #The concept of function is clear to me.
 #   2. What are some of the benefits of using functions?
-#By defining a function, it is possible to output for input of various values.
+
 # Write your answers below:
 
 # YOUR ANSWER HERE. Write your answers as comments
-#
-#
+#The concept of function is clear to me.
+#By defining a function, it is possible to output for input of various values.
 #
 #
 
