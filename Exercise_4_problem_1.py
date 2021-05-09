@@ -21,6 +21,18 @@
 def fahr_to_celsius(temp_fahrenheit):
   converted_temp=(temp_fahrenheit-32)/1.8;
   return converted_temp
+  """
+Function for converting temperature in Kelvins to Celsius
+Paramaters
+---------
+fahr_to_celsius:<numerical>
+converted temperature in celsius
+
+Returns
+---------
+<numerical>
+classified numbers
+ """
 
 # ### Problem 1 tests
 # 
